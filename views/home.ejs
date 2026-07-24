@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe Kitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <%- include('navbar', { user }) %>
+    <div class="container py-5">
+      <div class="hero-section text-center shadow">
+        <h1 class="display-4 fw-bold hero-title">Welcome to Recipe Kitchen</h1>
+        <p class="hero-subtitle">Share your favorite recipes, browse dishes from others, and build your own food collection.</p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+          <a class="btn btn-warning btn-lg fw-bold rounded-pill px-4" href="/recipes">View Recipes</a>
+          <a class="btn btn-outline-secondary btn-lg rounded-pill px-4" href="/recipe/add">Add Recipe</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

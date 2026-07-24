@@ -1,0 +1,251 @@
+/* ===== Global ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fdf6f0 0%, #f3e0d2 50%, #e8cebc 100%);
+  min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: linear-gradient(135deg, #7a3e25, #8b4d28) !important;
+  box-shadow: 0 2px 15px rgba(106, 50, 31, 0.3);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  transition: all 0.2s;
+  border-radius: 8px;
+  padding: 6px 12px !important;
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff !important;
+}
+
+.user-badge-nav {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ===== Recipe Cards ===== */
+.recipe-card-img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.recipe-card-img-placeholder {
+  height: 200px;
+  background: #f8f0e8;
+}
+
+/* ===== Recipe Detail ===== */
+.detail-header-title {
+  color: #6f331c;
+  font-size: 2rem;
+}
+
+.detail-meta {
+  color: #6b4a3a;
+  font-size: 0.95rem;
+}
+
+.detail-image {
+  height: 380px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.section-block {
+  background: #fff8f3;
+  border: 1px solid rgba(217, 152, 100, 0.15);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.section-block:hover {
+  box-shadow: 0 4px 15px rgba(106, 50, 31, 0.06);
+}
+
+.section-title {
+  color: #7c3d00;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+/* ===== Auth & Form Cards ===== */
+.auth-card {
+  max-width: 440px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(217, 152, 100, 0.15) !important;
+}
+
+.form-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(217, 152, 100, 0.15) !important;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(217, 152, 100, 0.15);
+  border-radius: 24px;
+  padding: 3.5rem 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.hero-title {
+  color: #6f331c;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  color: #5c3b2b;
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+/* ===== Content Card ===== */
+.content-card {
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(217, 152, 100, 0.12) !important;
+  border-radius: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ===== Buttons ===== */
+.btn-warning {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(135deg, #d97706, #b45309) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+}
+
+.btn-outline-primary {
+  border-color: #8b4d28 !important;
+  color: #8b4d28 !important;
+}
+
+.btn-outline-primary:hover {
+  background: #8b4d28 !important;
+  color: #fff !important;
+  border-color: #8b4d28 !important;
+}
+
+.btn-outline-danger:hover {
+  transform: translateY(-1px);
+}
+
+.btn-outline-secondary:hover {
+  transform: translateY(-1px);
+}
+
+/* ===== Form Controls ===== */
+.form-control:focus {
+  border-color: #c2885a;
+  box-shadow: 0 0 0 3px rgba(194, 136, 90, 0.2);
+}
+
+/* ===== Page Headings ===== */
+.page-heading {
+  color: #7c3d00;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* ===== Text Colors ===== */
+.text-brand {
+  color: #7c3d00;
+}
+
+.text-brand-dark {
+  color: #6f331c;
+}
+
+.bg-brand-light {
+  background: #fff8f3;
+}
+
+/* ===== Empty State ===== */
+.empty-state {
+  color: #8b7355;
+  font-size: 1.1rem;
+}
+
+/* ===== Alerts ===== */
+.alert-danger {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+}
+
+/* ===== Global Card Wrapper ===== */
+.card {
+  background: rgba(255, 255, 255, 0.97);
+}
+
+/* ===== Back Button ===== */
+.btn-back {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.btn-back:hover {
+  background: linear-gradient(135deg, #d97706, #b45309) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+  color: #fff !important;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1.5rem;
+  }
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .detail-header-title {
+    font-size: 1.5rem;
+  }
+  .detail-image {
+    height: 220px;
+  }
+  .section-block {
+    padding: 1.2rem;
+  }
+}
+ 
