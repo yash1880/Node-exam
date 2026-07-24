@@ -1,22 +1,23 @@
 ## Screenshots
 
 ### Register Page
-<img width="1110" height="787" alt="Register Page" src="https://github.com/user-attachments/assets/44af3b03-b24b-4d24-9d15-e02d73dc5ab8"/>
+<img width="1127" height="757" alt="Screenshot 2026-07-24 204313" src="https://github.com/user-attachments/assets/3fbbed4e-59d9-4cf1-9903-412de9a75c09" />
 
 ### Login Page
-<img width="1042" height="777" alt="Login Page" src="https://github.com/user-attachments/assets/3b830b41-dc5f-4ccf-a59d-b4f6d5399299"/>
+<img width="1522" height="827" alt="Screenshot 2026-07-24 204318" src="https://github.com/user-attachments/assets/925d7a79-5d72-4d1d-b283-6afcc0298359" />
 
 ### All Recipe Page
-<img width="1917" height="910" alt="All Recipe Page" src="https://github.com/user-attachments/assets/bf6adbdc-eac5-45d2-bb62-2289eb8ba4e4"/>
+<img width="1913" height="910" alt="Screenshot 2026-07-24 204326" src="https://github.com/user-attachments/assets/928eca91-7586-4736-aac6-afb211837415" />
 
 ### My Recipe Page
-<img width="1905" height="911" alt="My Recipe Page" src="https://github.com/user-attachments/assets/5a601789-5d16-4ab6-a8c0-4808131c81cd"/>
+<img width="1917" height="912" alt="Screenshot 2026-07-24 204334" src="https://github.com/user-attachments/assets/d8a98471-9c18-4d19-9eda-193aadbf70dc" />
 
 ### View Recipe Page
-<img width="1481" height="907" alt="View Recipe Page" src="https://github.com/user-attachments/assets/afcc2c7a-1bfd-4217-963c-3923d3c325f7"/>
+<img width="1648" height="905" alt="Screenshot 2026-07-24 204357" src="https://github.com/user-attachments/assets/0d7c23bc-c9f9-40c5-8478-292a818c1149" />
 
 ### Add New Recipe Page
-<img width="1801" height="910" alt="Add New Recipe Page" src="https://github.com/user-attachments/assets/ea7baf6e-3d9c-4d31-909f-d4573d2351c9"/>
+<img width="1915" height="911" alt="Screenshot 2026-07-24 204344" src="https://github.com/user-attachments/assets/f565d259-46f1-4b71-b834-70b4204f00eb" />
+
 # Recipe Kitchen 🍽️
 
 A full-stack recipe sharing web application where users can create, browse, edit, and delete recipes. Built with **Node.js**, **Express**, **MongoDB**, and **EJS** templating engine.
