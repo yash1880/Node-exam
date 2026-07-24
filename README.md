@@ -1,6 +1,6 @@
-## Regidter Page
+Regidter Page
 <img width="1110" height="787" alt="Screenshot 2026-07-24 202451" src="https://github.com/user-attachments/assets/44af3b03-b24b-4d24-9d15-e02d73dc5ab8"/>
-## Login Page
+# Login Page
 <img width="1042" height="777" alt="Screenshot 2026-07-24 202510" src="https://github.com/user-attachments/assets/3b830b41-dc5f-4ccf-a59d-b4f6d5399299" />
 ## All Recipe Page
 <img width="1917" height="910" alt="Screenshot 2026-07-24 202158" src="https://github.com/user-attachments/assets/bf6adbdc-eac5-45d2-bb62-2289eb8ba4e4" />
